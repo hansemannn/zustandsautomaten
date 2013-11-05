@@ -11,7 +11,12 @@ body {
 	background-color: #EDECEC;
 }
 
+.stage {
+	position: relative;
+}
+
 .start {
+	z-index: 1;
 	position: absolute;
 	top: 150px;
 	left: 100px;
@@ -25,6 +30,7 @@ body {
 }
 
 .state {
+	z-index: 2;
 	width: 200px;
 	height: 100px;
 	position: absolute;
@@ -33,19 +39,4 @@ body {
 	color: black;
 	padding: 40px 0;
 	text-align: center;
-}
-
-#state1 {
-	top: 150px;
-	left: 350px;
-}
-
-#state2 {
-	top: 350px;
-	left: 350px;
-}
-
-#state3 {
-	top: 150px;
-	left: 700px;
 }
