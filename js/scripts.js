@@ -4,7 +4,7 @@ jsPlumb.ready(function() {
 		// delete end node, what do we do with it?
 		var end = data.pop();
 		$.each(data, function(index, node) {
-			$('#stage').append($('<div>').attr('id', node.name).addClass(index === 0 ? 'start' : 'state').text(node.name));
+			$('#stage').append($('<div>').attr('id', node.name).addClass(index === 0 ? 'start' : 'state').text((node.name).toUpperCase()));
 		});
 		var grid;
 		$('#stage').data('grid', (grid = new GridLayout($('#stage'), 3)));

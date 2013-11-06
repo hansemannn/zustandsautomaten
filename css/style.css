@@ -35,8 +35,14 @@ body {
 	height: 100px;
 	position: absolute;
 	background-color: #CDCDCD;
+	opacity: 0.6;
 	border-radius: 20px;
 	color: black;
 	padding: 40px 0;
 	text-align: center;
+}
+
+.state:hover {
+opacity: 1;
+-webkit-transition:opacity 500ms ease-out;
 }
