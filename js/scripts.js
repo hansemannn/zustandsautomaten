@@ -63,7 +63,7 @@ GridLayout.prototype = {
  */
 var ColorPool = {
 	key: 0,
-	colors: ['#3f66f5', '#14b43a', '#e521d5', '#e59421', '#93363a', '#1e4474'],
+	colors: ['#957b3e','#c497b3','#3f66f5','#a6d79e', '#14b43a', '#3e456d','#e521d5', '#e59421', '#93363a', '#1e4474'],
 	next: function() {
 		if(this.key === this.colors.length) {
 			this.key = 0;
@@ -110,7 +110,7 @@ ConnectionBuilder.SelfReferencingConnectorSettings = {
 	},
 	hoverPaintStyle: ConnectionBuilder.Style.HoverPaintStyle,
 	endpoint: "Blank",
-	anchor: [1, 0, 0, 0, 50, 10],
+	anchor: [1, 0, 0, 0, 5,30],
 	cssClass: 'self-reference',
 	overlays:[
 		["Arrow", {

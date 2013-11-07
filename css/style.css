@@ -31,12 +31,12 @@ body {
 
 .state {
 	z-index: 2;
-	width: 200px;
+	width: 100px;
 	height: 100px;
 	position: absolute;
 	background-color: #CDCDCD;
 	opacity: 0.6;
-	border-radius: 20px;
+	border-radius: 50px;
 	color: black;
 	padding: 40px 0;
 	text-align: center;
@@ -44,7 +44,6 @@ body {
 
 .self-reference {
 	-webkit-transform: rotate(60deg);
-	transform: rotate(20deg);
 }
 .state:hover {
 opacity: 1;
